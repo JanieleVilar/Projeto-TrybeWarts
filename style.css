@@ -79,3 +79,16 @@ body {
   border: 1px solid white;
   font-family: 'Henny Penny', cursive;
 }
+
+#house {
+  background-color: white;
+  height: 25px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: hidden;
+  font-family: 'Henny Penny', cursive;
+}
+
+hr {
+  width: 300px;
+}

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Henny Penny', cursive;
+  background-color: tomato;
 }
 
 .header {
@@ -33,7 +34,7 @@ body {
   font-family: 'Henny Penny', cursive;
 }
 
-#input-email, #input-password {
+#input-email-header, #input-password {
   height: 25px;
   padding: 5px 10px;
   width: 120px;
@@ -59,10 +60,22 @@ body {
 
 #main-content {
   display: flex;
+  align-items: center;
+  margin-top: 50px;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  align-items: center;
+}
+
+#input-name, #input-lastname, #input-email {
+  height: 25px;
+  padding: 5px 10px;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-family: 'Henny Penny', cursive;
 }

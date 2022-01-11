@@ -1,5 +1,5 @@
 const loginButton = document.getElementById('login-form-button');
-const inputEmail = document.getElementById('input-email');
+const inputEmail = document.getElementById('input-email-header');
 const inputPassword = document.getElementById('input-password');
 
 // Req 3

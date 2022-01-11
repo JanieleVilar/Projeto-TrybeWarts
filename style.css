@@ -74,15 +74,23 @@ body {
 #input-name, #input-lastname, #input-email {
   height: 25px;
   padding: 5px 10px;
-  width: 150px;
+  width: 200px;
   border-radius: 10px;
   border: 1px solid white;
   font-family: 'Henny Penny', cursive;
 }
 
+#name-div {
+  margin-bottom: 10px;
+}
+
+#email-div {
+  align-items: center;
+}
+
 #house {
   background-color: white;
-  height: 25px;
+  width: 176px;
   padding: 5px 10px;
   border-radius: 10px;
   border: hidden;
@@ -90,5 +98,6 @@ body {
 }
 
 hr {
-  width: 300px;
+  width: 400px;
+  border: 1px solid white;
 }

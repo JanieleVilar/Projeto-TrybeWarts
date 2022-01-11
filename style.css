@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Henny Penny', cursive;
 }
 
 .header {
@@ -8,39 +9,47 @@ body {
   height: 80px;
 }
 
-#header-container {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  width: 95%;
   margin: auto;
+  padding: 0 20px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  margin: 0;
 }
 
 .trybewarts-login {
   display: flex;
+  align-items: center;
+  height: 25px;
 }
 
 #login-form-container input[type=text], input[type=password] {
   margin-right: 10px;
+  font-family: 'Henny Penny', cursive;
 }
 
 #input-email, #input-password {
-  padding: 10px 10px;
+  height: 25px;
+  padding: 5px 10px;
   width: 120px;
   border-radius: 10px;
   border: 1px solid white;
 }
 
 #login-form-button {
-  padding: 7px 10px;
   border-radius: 10px;
-  width: 120px;
+  width: 80px;
 
   color: white;
   background-color: tomato;
   
   font-weight: 900;
+  font-family: 'Henny Penny', cursive;
 }
 
 #login-form-button:hover {

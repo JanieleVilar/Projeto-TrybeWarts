@@ -56,3 +56,12 @@ body {
   background-color: rgb(255, 174, 160);
   box-shadow: 0 0 4px black;
 }
+
+#main-content {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  height: 80px;
+}
+
+#header-container {
+  display: flex;
+  align-items: center;
+
+  width: 95%;
+  margin: auto;
+}

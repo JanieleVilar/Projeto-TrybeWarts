@@ -11,7 +11,39 @@ body {
 #header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   width: 95%;
   margin: auto;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#login-form-container input[type=text], input[type=password] {
+  margin-right: 10px;
+}
+
+#input-email, #input-password {
+  padding: 10px 10px;
+  width: 120px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+#login-form-button {
+  padding: 7px 10px;
+  border-radius: 10px;
+  width: 120px;
+
+  color: white;
+  background-color: tomato;
+  
+  font-weight: 900;
+}
+
+#login-form-button:hover {
+  background-color: rgb(255, 174, 160);
+  box-shadow: 0 0 4px black;
 }

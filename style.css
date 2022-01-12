@@ -102,12 +102,30 @@ hr {
   border: 1px solid white;
 }
 
-/* #flex-div {
+#container {
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
+  width: 275px;
   
 }
 
-div {
-  margin: 10px;
-} */
+#container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 265px;
+}
+
+#containerM {
+  display: flex;
+  width: 596px;
+  justify-content: space-around;
+}
+
+#flex-div {
+  
+}
+
+#avaliacao {
+  display: flex;
+
+}

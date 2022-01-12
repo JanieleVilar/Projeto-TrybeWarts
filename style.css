@@ -68,34 +68,58 @@ body {
   display: flex;
   width: 675px;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   padding: 0 85px;
 }
 
 #input-name, #input-lastname, #input-email {
   height: 25px;
   padding: 5px 10px;
-  width: 200px;
+  /* width: 200px; */
   border-radius: 10px;
   border: 1px solid white;
   font-family: 'Henny Penny', cursive;
 }
 
 #name-div {
+  display: flex;
   margin-bottom: 10px;
 }
 
+#input-name {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#input-lastname {
+  flex-grow: 1;
+}
+
 #email-div {
+  align-items: center;
+  display: flex;
+
+}
+
+#input-email {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#div-house {
+  display: flex;
+  flex-grow: 1;
   align-items: center;
 }
 
 #house {
   background-color: white;
-  width: 176px;
+  /* width: 176px; */
   padding: 5px 10px;
   border-radius: 10px;
   border: hidden;
   font-family: 'Henny Penny', cursive;
+  flex-grow: 1;
 }
 
 hr {
@@ -137,4 +161,13 @@ hr {
 
 #textarea {
   width: 586px;
+}
+
+#submit-btn {
+  padding: 10px 5px;
+  background-color: rgb(95, 22, 95);
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  border: hidden;
 }

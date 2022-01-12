@@ -11,3 +11,18 @@ function loginResponse() {
   }
 }
 loginButton.addEventListener('click', loginResponse);
+
+const botao = document.getElementById('submit-btn');
+const checkInput = document.getElementById('agreement');
+
+function botao1() {
+  if (checkInput.checked) {
+    botao.disabled = false;
+  }
+}
+checkInput.addEventListener('change', botao1)
+
+function onload() {
+  botao.disabled = true;
+} 
+onload();

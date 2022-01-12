@@ -117,15 +117,19 @@ hr {
 
 #containerM {
   display: flex;
-  width: 596px;
+  width: 586px;
   justify-content: space-around;
-}
-
-#flex-div {
-  
 }
 
 #avaliacao {
   display: flex;
+}
 
+#id-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea {
+  width: 586px;
 }

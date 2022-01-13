@@ -5,9 +5,9 @@ const inputPassword = document.getElementById('input-password');
 // Req 3
 function loginResponse() {
   if (inputEmail.value === 'tryber@teste.com' && inputPassword.value === '123456') {
-    alert ('Olá, Tryber!');
+    alert('Olá, Tryber!');
   } else {
-    alert ('Email ou senha inválidos.');
+    alert('Email ou senha inválidos.');
   }
 }
 loginButton.addEventListener('click', loginResponse);

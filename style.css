@@ -50,7 +50,7 @@ body {
   background-color: tomato;
   
   font-weight: 900;
-  font-family: 'Henny Penny', cursive;
+  font-family: Henny Penny, cursive;
 }
 
 #login-form-button:hover {
@@ -78,7 +78,7 @@ body {
   /* width: 200px; */
   border-radius: 10px;
   border: 1px solid white;
-  font-family: 'Henny Penny', cursive;
+  font-family: Henny Penny, cursive;
 }
 
 #name-div {
@@ -118,7 +118,7 @@ body {
   padding: 5px 10px;
   border-radius: 10px;
   border: hidden;
-  font-family: 'Henny Penny', cursive;
+  font-family: Henny Penny, cursive;
   flex-grow: 1;
 }
 
@@ -131,7 +131,6 @@ hr {
   display: flex;
   flex-direction: column;
   width: 275px;
-  
 }
 
 #label-content {

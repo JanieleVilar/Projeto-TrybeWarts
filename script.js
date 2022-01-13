@@ -20,9 +20,10 @@ function botao1() {
     botao.disabled = false;
   }
 }
-checkInput.addEventListener('change', botao1)
+checkInput.addEventListener('change', botao1);
 
 function onload() {
   botao.disabled = true;
-} 
+}
+
 onload();

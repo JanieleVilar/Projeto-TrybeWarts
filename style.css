@@ -25,12 +25,9 @@ body {
   height: 25px;
 }
 
-#login-form-container input[ type = 'text' ] , input[ type = 'password' ] {
+#login-form-container #input-email-header , #input-password {
   margin-right: 10px;
   font-family: Henny Penny, cursive;
-}
-
-#input-email-header , #input-password {
   height: 25px;
   padding: 5px 10px;
   width: 120px;

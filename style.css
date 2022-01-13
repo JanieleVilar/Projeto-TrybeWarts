@@ -101,3 +101,19 @@ hr {
   width: 400px;
   border: 1px solid white;
 }
+
+.counter {
+  display: flex;
+  flex-direction: column;
+}
+
+#counter {
+  margin: 0;
+  align-self: flex-end;
+}
+
+.div-after-submit {
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 675px;
+}

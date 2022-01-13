@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Henny Penny', cursive;
+  font-family: Henny Penny, cursive;
   background-color: tomato;
 }
 
@@ -8,10 +8,6 @@ body {
   background-color: rgb(50, 167, 145);
   display: flex;
   height: 80px;
-}
-
-.header {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   margin: auto;
@@ -29,12 +25,9 @@ body {
   height: 25px;
 }
 
-#login-form-container input[type=text], input[type=password] {
+#login-form-container #input-email-header , #input-password {
   margin-right: 10px;
-  font-family: 'Henny Penny', cursive;
-}
-
-#input-email-header, #input-password {
+  font-family: Henny Penny, cursive;
   height: 25px;
   padding: 5px 10px;
   width: 120px;
@@ -45,12 +38,10 @@ body {
 #login-form-button {
   border-radius: 10px;
   width: 80px;
-
   color: white;
   background-color: tomato;
-  
   font-weight: 900;
-  font-family: 'Henny Penny', cursive;
+  font-family: Henny Penny, cursive;
 }
 
 #login-form-button:hover {
@@ -61,48 +52,102 @@ body {
 #main-content {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+#main-content h2 {
+  text-align: center;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
-  align-items: center;
+  margin-right: 100px;
 }
 
-#input-name, #input-lastname, #input-email {
+#input-name , #input-lastname , #input-email {
   height: 25px;
   padding: 5px 10px;
-  width: 200px;
   border-radius: 10px;
   border: 1px solid white;
-  font-family: 'Henny Penny', cursive;
+  font-family: Henny Penny, cursive;
 }
 
 #name-div {
+  display: flex;
   margin-bottom: 10px;
 }
 
+#input-name {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#input-lastname {
+  flex-grow: 1;
+}
+
 #email-div {
+  align-items: center;
+  display: flex;
+
+}
+
+#input-email {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#div-house {
+  display: flex;
+  flex-grow: 1;
   align-items: center;
 }
 
 #house {
   background-color: white;
-  width: 176px;
   padding: 5px 10px;
   border-radius: 10px;
   border: hidden;
-  font-family: 'Henny Penny', cursive;
+  font-family: Henny Penny, cursive;
+  flex-grow: 1;
 }
 
 hr {
-  width: 400px;
+  width: 675px;
+  margin: 20px 0;
   border: 1px solid white;
 }
 
-.counter {
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-content {
+  width: 350px;
+}
+
+#container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+#containerM {
+  display: flex;
+  justify-content: space-around;
+}
+
+#avaliacao {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#id-textarea {
   display: flex;
   flex-direction: column;
 }
@@ -110,6 +155,34 @@ hr {
 #counter {
   margin: 0;
   align-self: flex-end;
+}
+
+#textarea {
+  flex-grow: 1;
+}
+
+#submit-btn {
+  padding: 10px 5px;
+  background-color: rgb(85, 29, 85);
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  border: hidden;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#footer {
+  background-color: rgb(77, 81, 85);
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .div-after-submit {

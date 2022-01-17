@@ -65,7 +65,7 @@ body {
   display: flex;
   width: 675px;
   flex-direction: column;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 #input-name , #input-lastname , #input-email {
@@ -145,6 +145,7 @@ hr {
 #avaliacao {
   display: flex;
   margin-bottom: 10px;
+  justify-content: space-between;
 }
 
 #id-textarea {
@@ -186,7 +187,14 @@ hr {
 }
 
 .div-after-submit {
-  border: 1px solid red;
+  border: 1px solid rgb(0, 2, 121);
   border-radius: 10px;
   width: 675px;
+  margin-right: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.div-after-submit p {
+  padding: 0 85px;
 }
